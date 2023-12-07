@@ -1,0 +1,181 @@
+make: Entering directory '/mnt/c/csce221/hw/unorderedMap/tests'
+g++  -std=c++17 -Wall -pedantic -DDEBUG -g -Irtest/include  -Iinclude -I../src  ../src/primes.cpp -o ../src/primes.o -c
+g++  -std=c++17 -Wall -pedantic -DDEBUG -g -Irtest/include  -Iinclude -I../src  ../src/hash_functions.cpp -o ../src/hash_functions.o -c
+g++  -std=c++17 -Wall -pedantic -DDEBUG -g -Irtest/include  -Iinclude -I../src  rtest/utils/memhook.cpp -o rtest/utils/memhook.o -c
+g++  -std=c++17 -Wall -pedantic -DDEBUG -g -Irtest/include  -Iinclude -I../src  rtest/utils/xoshiro256.cpp -o rtest/utils/xoshiro256.o -c
+g++  -std=c++17 -Wall -pedantic -DDEBUG -g -Irtest/include  -Iinclude -I../src  rtest/utils/typegen.cpp -o rtest/utils/typegen.o -c
+g++  -std=c++17 -Wall -pedantic -DDEBUG -g -Irtest/include  -Iinclude -I../src  rtest/utils/assertions.cpp -o rtest/utils/assertions.o -c
+g++  -std=c++17 -Wall -pedantic -DDEBUG -g -Irtest/include  -Iinclude -I../src  tests/access_operator.cpp ../src/primes.o ../src/hash_functions.o rtest/utils/memhook.o rtest/utils/xoshiro256.o rtest/utils/typegen.o rtest/utils/assertions.o -o build/access_operator 
+[==========] Running 1 test cases.
+[ RUN      ] UnorderedMap.access_operator
+0.520754 -> 
+head updated
+0.520754 -> 
+0.520754 -> 0.520754 -> 0: 
+1: 
+2: 
+3: 
+4: 
+5: 
+6: 
+7: 
+8: 
+9: 
+10: 
+11: 
+12: 
+13: 
+14: 
+15: 
+16: 
+17: (0.520754, 0.599029) 
+18: 
+0.615089 -> 
+head updated
+0.615089 -> 
+0.615089 -> 0.615089 -> 0: 
+1: 
+2: 
+3: 
+4: (0.615089, 0.692015) 
+5: 
+6: 
+7: 
+8: 
+9: 
+10: 
+11: 
+12: 
+13: 
+14: 
+15: 
+16: 
+17: (0.520754, 0.599029) 
+18: 
+0.0684121 -> 
+head updated
+0.0684121 -> 
+0.0684121 -> 0.0684121 -> 0: 
+1: (0.0684121, 0.365628) 
+2: 
+3: 
+4: (0.615089, 0.692015) 
+5: 
+6: 
+7: 
+8: 
+9: 
+10: 
+11: 
+12: 
+13: 
+14: 
+15: 
+16: 
+17: (0.520754, 0.599029) 
+18: 
+0.544893 -> 
+0.544893 -> 
+0.544893 -> 0.544893 -> 0: 
+1: (0.0684121, 0.365628) 
+2: 
+3: 
+4: (0.615089, 0.692015) 
+5: 
+6: 
+7: (0.544893, 0.884866) 
+8: 
+9: 
+10: 
+11: 
+12: 
+13: 
+14: 
+15: 
+16: 
+17: (0.520754, 0.599029) 
+18: 
+0.423447 -> 
+0.423447 -> 
+0.423447 -> 0.423447 -> 0: 
+1: (0.0684121, 0.365628) 
+2: 
+3: 
+4: (0.615089, 0.692015) 
+5: 
+6: 
+7: (0.544893, 0.884866) 
+8: 
+9: 
+10: (0.423447, 0.714251) 
+11: 
+12: 
+13: 
+14: 
+15: 
+16: 
+17: (0.520754, 0.599029) 
+18: 
+0.260591 -> 
+0.260591 -> 
+0.260591 -> 0.260591 -> 0: 
+1: (0.0684121, 0.365628) 
+2: 
+3: 
+4: (0.615089, 0.692015) 
+5: 
+6: 
+7: (0.544893, 0.884866) 
+8: 
+9: 
+10: (0.423447, 0.714251) 
+11: 
+12: 
+13: 
+14: 
+15: 
+16: (0.260591, 0.142565) 
+17: (0.520754, 0.599029) 
+18: 
+0.642902 -> 0.423447 -> 
+0.642902 -> 0.423447 -> 
+0.642902 -> 0.423447 -> 0.642902 -> 0.423447 -> 0: 
+1: (0.0684121, 0.365628) 
+2: 
+3: 
+4: (0.615089, 0.692015) 
+5: 
+6: 
+7: (0.544893, 0.884866) 
+8: 
+9: 
+10: (0.642902, 0.146228) (0.423447, 0.714251) 
+11: 
+12: 
+13: 
+14: 
+15: 
+16: (0.260591, 0.142565) 
+17: (0.520754, 0.599029) 
+18: 
+0.857478 -> 0.520754 -> 
+0.857478 -> 0.520754 -> 
+0.857478 -> 0.520754 -> 0.857478 -> 0.520754 -> 0: 
+1: (0.0684121, 0.365628) 
+2: 
+3: 
+4: (0.615089, 0.692015) 
+5: 
+6: 
+7: (0.544893, 0.884866) 
+8: 
+9: 
+10: (0.642902, 0.146228) (0.423447, 0.714251) 
+11: 
+12: 
+13: 
+14: 
+15: 
+16: (0.260591, 0.142565) 
+17: (0.857478, 0.46039) (0.520754, 0.599029) 
+18: 
